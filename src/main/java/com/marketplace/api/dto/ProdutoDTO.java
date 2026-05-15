@@ -1,9 +1,11 @@
 package com.marketplace.api.dto;
 
 import jakarta.validation.constraints.*;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
+@Data
 public class ProdutoDTO {
 
     @NotBlank(message = "O nome é obrigatório")
