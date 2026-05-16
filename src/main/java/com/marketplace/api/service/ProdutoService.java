@@ -1,4 +1,4 @@
-package com.marketplace.api.controller;
+package com.marketplace.api.service;
 
 import com.marketplace.api.dto.ProdutoDTO;
 import com.marketplace.api.model.Produto;
